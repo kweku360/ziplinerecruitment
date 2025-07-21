@@ -1,0 +1,23 @@
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Ignore cache and debug logs
+wp-content/cache/
+wp-content/debug.log
+
+# Ignore SFTP/FTP config files
+*.sftp.json
+*.ftpconfig
+
+# Ignore database and backup files
+*.sql
+*.sql.gz
+*.zip
+*.tar.gz 
