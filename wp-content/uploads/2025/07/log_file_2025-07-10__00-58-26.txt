@@ -1,0 +1,200 @@
+
+---Downloaded files---
+The import files for: Demo 10 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://ziplinerecruitment.com
+Data file = /var/www/a6ec3d91-d9cd-4cc0-aaa5-98d0156d362e/public_html/wp-content/themes/recrute/sample-data/contents-demo.xml
+Widget file = /var/www/a6ec3d91-d9cd-4cc0-aaa5-98d0156d362e/public_html/wp-content/themes/recrute/sample-data/widget-settings.json
+Customizer file = /var/www/a6ec3d91-d9cd-4cc0-aaa5-98d0156d362e/public_html/wp-content/themes/recrute/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - Search - Imported
+VL Blog Posts Image - Recent Posts - Imported
+Categories - Category - Imported
+Tag Cloud - Tags - Imported
+
+Service Sidebar : 
+
+VL Services Category - Service Categories - Imported
+VL Service Posts Image - Recent Posted - Imported
+VL Contact Form - Contact Us - Imported
+
+Project Sidebar : 
+
+VL Project Category - Categories - Imported
+VL Project Posts Image - Recent Works - Imported
+Tag Cloud - Tags - Imported
+VL Contact Form - Contact Us - Imported
+
+Footer 1 : 
+
+VL Info - No Title - Imported
+
+Footer 2 : 
+
+Navigation Menu - Quick Links - Imported
+
+Footer 3 : 
+
+Navigation Menu - Get In Touch - Imported
+
+Footer 4 : 
+
+VL Contact Info - Get in touch - Imported
+
+footer-2-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-2-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-2-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-2-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-3-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-3-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-3-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-3-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-4-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-4-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-4-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-4-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-5-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-5-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-5-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-5-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-6-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-6-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-6-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-6-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-7-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-7-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-7-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-7-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-8-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-8-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-8-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-8-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-9-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-9-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-9-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-9-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+footer-10-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Imported to Inactive
+
+footer-10-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Imported to Inactive
+
+footer-10-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Imported to Inactive
+
+footer-10-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

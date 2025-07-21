@@ -1,0 +1,951 @@
+/* /////////////////////////////////////////////////// */
+/* -------------------home 1--------------------- */
+/* /////////////////////////////////////////////////// */
+.vl-header-top-info a span {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.vl-header-top-right .header-social a {
+	margin-left: 0;
+	margin-right: 24px;
+}
+.vl-main-menu ul li.has-dropdown > a::after {
+	margin-left: 0;
+	margin-right: 6px;
+}
+.vl-main-menu ul li:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-main-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn {
+	right: auto;
+	left: 0;
+}
+.vl-header-logo-bg {
+  right: 0;
+	left: auto;
+	clip-path: polygon(0px 0px, 100% 0px, 100.57% 100.79%, 24% 100%);
+}
+.vl-header-main-menu {
+	padding-left: 0;
+	padding-right: 90px;
+}
+.vl-header-top {
+	padding-right: 120px;
+	padding-left: 70px;
+}
+.vl-main-menu ul li .submenu {
+	left: auto;
+	right: 0;
+}
+.vl-main-menu ul li .submenu li a::before {
+	left: auto;
+	right: 0;
+}
+.vl-main-menu ul li .submenu li:hover > a span {
+	margin-left: 0;
+	margin-right: 14px;
+}
+.vl-header-contact-search span {
+	margin-right: 0;
+	margin-left: 25px;
+}
+.vl-header-contact-icon span {
+	margin-right: 0;
+	margin-left: 13px;
+}
+.vl-header-main-right {
+	padding-right: 0;
+	padding-left: 30px;
+}
+.vl-hero-button-wrapper .vl-hero-btn {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-hero-call span {
+	margin-right: 0;
+	margin-left: 17px;
+}
+.vl-about-shape {
+	right: auto;
+	left: 0;
+}
+.vl-about-thumb-wrapper .shape-1 {
+  right: auto;
+  left: 32px;
+}
+.vl-about-thumb-wrapper .shape-2 {
+	left: auto;
+	right: -90px;
+}
+.vl-about-thumb-wrapper .shape-3 {
+	right: auto;
+	left: 30px;
+}
+.vl-about-thumb-wrapper .shape-4 {
+	right: auto;
+	left: 20px;
+}
+.vl-service-nav {
+	float: left;
+}
+.vl-service-nav button {
+right: -60px;
+}
+
+.vl-service-nav button.service-button-next-1 {
+  right: -135px;
+} 
+.vl-service-item-icon span {
+	right: auto;
+	left: 38px;
+}
+.vl-project-tab-wrapper .nav-pills .nav-item:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-process-item-icon {
+	border-left: none;
+	border-right: 2px solid #E3E3E3;
+}
+.vl-process-trusted {
+	right: auto;
+	left: 95px;
+}
+.vl-blog-item-btn a i {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.vl-process-counter-icon span {
+	margin-right: auto;
+	margin-left: 12px;
+}
+.vl-process-thumb .shape-1 {
+	right: auto;
+	left: 0;
+}
+.vl-faq-counter-icon span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.vl-faq-counter {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-accordion .accordion-button::after {
+	right: auto;
+	left: 21px;
+}
+.vl-accordion .accordion-button {
+	padding-right: 30px;
+	padding-left: 65px;
+}
+.vl-testimonial-bg {
+	right: auto;
+	left: 0;
+}
+.vl-testimonial-bg-color::after {
+	right: auto;
+	left: 0;
+	clip-path: polygon(-0.46% 0%, 58.72% -0.05%, 100% 100%, 0% 100%);
+}
+.vl-testimonial-item-quot {
+	right: auto;
+	left: 40px;
+}
+.vl-blog-item-date {
+	right: auto;
+	left: 25px;
+}
+.vl-blog-item-info span {
+	margin-right: 0;
+	margin-left: 40px;
+}
+.vl-blog-item-info span i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.vl-blog-item-btn::after {
+	left: auto;
+	right: 0;
+}
+.vl-footer-widget-social a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.vl-footer-widget-content ul li::after {
+	left: auto;
+	right: -15px;
+}
+.vl-footer-col-2 {
+	padding-left: 0;
+	padding-right: 45px;
+}
+.vl-footer-col-3 {
+	padding-left: 0;
+	padding-right: 45px;
+}
+.vl-footer-widget-contact-inner a {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.vl-footer-widget-contact-inner a i {
+	left: auto;
+	right: -25px;
+}
+.vl-footer-widget-item span i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.vl-cta-bg-wrapper {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vl-footer-copyright-area {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .vl-header-main-menu {
+    padding-left: 0;
+    padding-right: 60px;
+  }
+  .vl-header-contact-search span {
+    margin-right: 0;
+    margin-left: 12px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .vl-header-main-menu {
+    padding-left: 0;
+    padding-right: 35px;
+  }
+  .vl-main-menu ul li:not(:last-of-type) {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+  .vl-blog-item-info span {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+  .vl-footer-col-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .vl-footer-col-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .vl-header-main-right {
+    padding-right: 0;
+    padding-left: 0px;
+  }
+  .vl-footer-col-1 {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
+  .vl-blog-item-info span {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+  .vl-footer-col-1 {
+    padding-right: 0;
+  }
+  .vl-footer-col-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .vl-footer-col-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .vl-footer-col-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .vl-footer-col-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 575px) {
+  .offcanvas__close {
+    right: auto;
+    left: 20px;
+  }
+}
+
+/* /////////////////////////////////////////////////// */
+/* -------------------home 2--------------------- */
+/* /////////////////////////////////////////////////// */
+.vl-hero-button-wrapper-2 .vl-hero-btn {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-hero-call-2 span {
+	margin-right: 0;
+	margin-left: 17px;
+}
+.vl-hero-img-1 {
+	padding-right: 0;
+	padding-left: 18px;
+}
+.vl-about-progressbar .circular .knob {
+	margin-left: 0px !important;
+	margin-right: -100px !important;
+}
+.vl-about-thumb-wrapper-2 .img-1 {
+	margin-left: 0;
+	margin-right: -30px;
+}
+.vl-about-thumb-wrapper-2 .img-2 {
+	right: auto;
+	left: 20px;
+}
+.vl-about-progressbar {
+	right: auto;
+	left: 45px;
+}
+.vl-about-thumb-wrapper-2 .img-3 {
+	left: auto;
+	right: -60px;
+}
+.vl-about-item-2-inner:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-footer-copyright-inner a:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-hero-content-3 {
+	text-align: right;
+}
+.vl-about-item-2-icon {
+	margin-right: 0;
+	margin-left: 25px;
+}
+.vl-about-btn-2 {
+	margin-right: 0;
+	margin-left: 50px;
+}
+.vl-about-user-thumb {
+	margin-right: 0;
+	margin-left: 18px;
+}
+.vl-service-icon-2 {
+	right: auto;
+	left: 45px;
+}
+.vl-service-content-2 {
+	padding: 40px 30px 55px 80px;
+}
+.vl-service-content-2 p::after {
+	left: auto;
+	right: 0;
+}
+.vl-process-item-icon-2 span i {
+	left: auto;
+	right: -8px;
+}
+.vl-process-arrows .shape-1 {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.vl-process-arrows .shape-2 {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.vl-process-arrows .shape-3 {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.vl-testimonial-nav-2 {
+	float: left;
+}
+.vl-testimonial-nav-2 button {
+	right: -60px;
+}
+.vl-testimonial-nav-2 button.testimonial-button-next-1 {
+	right: auto;
+	left: 76px;
+}
+.vl-testimonial-quote {
+	right: auto;
+	left: 35px;
+}
+.vl-testimonial-content-2 {
+	padding: 35px 20px;
+}
+.vl-counter-icon span {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-counter-bg::after {
+	left: auto;
+	right: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.vl-contact-form .wide {
+	text-align: right !important;
+}
+.vl-contact-form .wide::after {
+	right: auto;
+	left: 36px;
+}
+.nice-select .option {
+	text-align: right;
+}
+.vl-blog-item-date-2 span {
+	right: auto;
+	left: 0px;
+	border-radius: 0px 5px 5px 0px;
+}
+.vl-blog-item-thumb-2 img {
+	width: 100%;
+}
+.vl-footer-2-col-1 {
+	padding-right: 0;
+	padding-left: 22px;
+}
+.vl-footer-2-col-2 {
+	padding-left: 0;
+	padding-right: 16px;
+}
+.vl-hero-shape-2 .shape-1 {
+	right: auto;
+	left: 0;
+}
+.offcanvas__close {
+	right: auto;
+	left: 30px;
+}
+.offcanvas__contact-content-icon i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .vl-about-thumb-wrapper-2 .img-1 {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .vl-service-content-2 {
+    padding: 40px 30px 55px 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+  .vl-service-content-2 {
+    padding: 40px 28px 55px 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .vl-testimonial-quote {
+    right: auto;
+    left: 10px;
+  }
+}
+.vl-header-top-info-3 ul li:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 33px;
+}
+.vl-main-menu.home-3 {
+	padding-left: 0;
+	padding-right: 36px;
+	margin-right: 0;
+}
+.vl-header-top-info-3 ul li a span {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.vl-header-top-social-3 {
+	margin-right: 0;
+	margin-left: 110px;
+}
+.vl-header-wrapper-3 {
+	padding-right: 0;
+	margin-left: 0;
+	padding-left: 40px;
+	margin-right: 50px;
+}
+.vl-header-box-3 {
+	padding-left: 0;
+	padding-right: 50px;
+}
+.vl-hero-thumb-main-3 {
+	right: auto;
+	left: 0;
+}
+.vl-header-contact-inner-3 {
+	padding-right: 0;
+	margin-right: 0;
+	border-right: 0;
+	padding-left: 50px;
+	margin-left: 50px;
+	border-left: 1px solid #C0C8D2;
+}
+.vl-header-icon-3 {
+	margin-right: 0;
+	margin-left: 15px;
+}
+.vl-header-contact-search-3 span {
+	margin-right: 0;
+	margin-left: 40px;
+}
+.vl-hero-thumb-3 {
+	-webkit-mask-image: none;
+}
+.vl-about-item-icon-3 span {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-about-btn-3 {
+	margin-left: 80px;
+	margin-right: 0;
+}
+.vl-about-video a span {
+	margin-right: 0;
+	margin-left: 15px;
+}
+.vl-about-thumb-wrapper-3 .shape {
+	right: auto;
+	left: 60px;
+}
+.vl-about-thumb-wrapper-3 .shape-2 {
+	right: auto;
+	left: 51%;
+	z-index: 1;
+}
+.vl-about-thumb-counter {
+	left: auto;
+	right: 20%;
+}
+.vl-service-item-number {
+	right: auto;
+	left: 50px;
+}
+.vl-support-thumb .main {
+	padding-right: 0;
+	padding-left: 40px;
+}
+.vl-support-count {
+	left: auto;
+	right: 0;
+}
+.vl-support-count .circular .knob {
+	margin-right: -107px;
+	margin-left: 0;
+}
+.vl-support-wrapper-inner ul li {
+	padding-left: 0;
+	padding-right: 40px;
+}
+.vl-support-wrapper-inner ul li i {
+	left: auto;
+	right: 0;
+}
+.vl-testimonial-user-3-thumb img {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-contact-wrapper-2 {
+	padding-left: 0;
+	padding-right: 70px;
+}
+.vl-blog-item-info-3 span:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 25px;
+}
+.vl-blog-item-info-3 span i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.vl-about-item-3 {
+	margin-left: 25px;
+	margin-right: 0;
+}
+.vl-blog-item-btn-3 a span {
+	margin-left: 0;
+	margin-right: 5px;
+}
+.vl-footer-subscribe-wrapper-title span {
+	margin-right: 0;
+	margin-left: 20px;
+}
+.vl-footer-subscribe-email span {
+	left: auto;
+	right: 0;
+}
+.vl-footer-info-call a i, .vl-footer-info-mail a i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.vl-footer-3-col-2 .vl-footer-widget-content ul li {
+	margin-left: 0;
+	margin-right: 25px;
+}
+.vl-footer-3-col-2 {
+	padding-left: 0;
+	padding-right: 110px;
+}
+.vl-footer-3-col-2 .vl-footer-widget-content ul li a i {
+	left: auto;
+	right: -23px;
+}
+.vl-footer-3-col-3 {
+	padding-left: 0;
+	padding-right: 45px;
+}
+.vl-footer-3-col-3 .vl-footer-widget-content ul li a i {
+	left: auto;
+	right: -23px;
+}
+.vl-blog-item-btn-2 a span {
+	margin-left: 0;
+	margin-right: 5px;
+}
+.vl-footer-3-col-3 .vl-footer-widget-content ul li {
+	margin-left: 0;
+	margin-right: 25px;
+}
+@media only screen and (min-width: 1600px) and (max-width: 1700px) {
+  .vl-header-contact-inner-3 {
+    margin-left: 40px;
+    padding-left: 40px;
+  }
+	.vl-header-box-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+	.vl-header-box-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-header-wrapper-3 {
+		padding-right: 0;
+		margin-left: 0;
+		padding-left: 0;
+		margin-right: 40px;
+	}
+	.vl-header-contact-inner-3 {
+		padding-left: 12px;
+		margin-left: 12px;
+	}
+	.vl-header-contact-search-3 span {
+		margin-right: 0;
+		margin-left: 15px;
+	}
+	.vl-header-top-social-3 {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+	.vl-header-box-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-header-top-social-3 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.vl-header-top-info-3 ul li:not(:last-of-type) {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	.vl-header-wrapper-3 {
+		margin-right: 40px;
+	}
+	.vl-main-menu.home-3 {
+		padding-right: 20px;
+	}
+	.vl-header-contact-search-3 span {
+		margin-left: 20px;
+	}
+	.vl-about-item-3{
+		margin-right: 0;
+	}
+	.vl-contact-wrapper-2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-footer-3-col-2 {
+		padding-left: 0;
+		padding-right: 85px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .vl-main-menu.home-3 {
+    padding-right: 0;
+  }
+	.vl-header-box-3 {
+		padding-right: 0px;
+	}
+	.vl-header-wrapper-3 {
+		padding-right: 30px;
+		margin-right: 0;
+	}
+	.vl-header-main-right-hamburger-btn {
+		width: 0;
+	}
+	.vl-header-main-right-3 {
+    padding-left: 0;
+    padding-right: 90%;
+  }
+	.vl-about-item-3{
+		margin-right: 0;
+	}
+	.vl-about-btn-3 {
+		margin-left: 15px;
+	}
+	.vl-contact-wrapper-2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-footer-3-col-2 {
+		padding-left: 0;
+		padding-right: 80px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+	.vl-contact-wrapper-2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-footer-3-col-2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-footer-3-col-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+	.vl-contact-wrapper-2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vl-footer-3-col-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 575px) {
+	.vl-footer-3-col-2 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.vl-service-widget-list-content ul li {
+	margin-left: 0;
+	margin-right: 30px;
+}
+.vl-service-widget-list-content ul li i {
+	right: -30px;
+	left: auto;
+}
+.vl-service-details-item {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-service-details-icon {
+	right: auto;
+	left: 30px;
+}
+.vl-service-details-box-content {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-service-details-subtitle-2::before {
+	left: auto;
+	right: 0;
+}
+.vl-service-widget-tab ul li.active a::before {
+	left: auto;
+	right: -30px;
+}
+.vl-service-widget-tab ul li a::before {
+	left: auto;
+	right: -30px;
+}
+.vl-service-details-title {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.vl-service-details-title::before {
+	left: auto;
+	right: -20px;
+}
+.vl-project-details-title {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.vl-project-details-title::after {
+	top: 10px;
+	left: auto;
+	right: -20px;
+}
+.vl-project-details-box-1 {
+	margin-right: 0;
+	margin-left: 50px;
+}
+.vl-project-details-list-title i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.vl-project-details-box {
+	left: 20px;
+	right: auto;
+}
+.vl-project-details-title-wrapper {
+	padding-right: 0;
+	padding-left: 34%;
+}
+@media (max-width: 575px) {
+	.vl-project-details-title-wrapper {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+.vl-team-details-information h4 a {
+	margin-left: 0;
+	margin-right: 100px;
+}
+.vl-team-details-information span {
+	left: auto;
+	right: 0;
+}
+.vl-team-details-social a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.vl-team-details-value ul li {
+	margin-left: 0;
+	margin-right: 25px;
+}
+.vl-team-details-value ul li i {
+	left: auto;
+	margin-right: 0;
+	right: -25px;
+	margin-left: 8px;
+}
+.vl-team-details-progress-title h5 .pursent-1 {
+	right: auto;
+	left: 32%;
+}
+.vl-team-details-progress-title h5 .pursent-2 {
+	position: absolute;
+	top: 0;
+	right: auto;
+	left: 28%;
+}
+.vl-team-details-progress-title h5 .pursent-3 {
+	right: auto;
+	left: 35%;
+}
+.vl-postbox-thumb-date {
+	left: auto;
+	right: 20px;
+}
+.vl-sidebar-widget-content ul li a i {
+	margin-right: 0;
+	margin-left: 2px;
+}
+.vl-rc__post-thumb {
+	margin-left: 25px;
+	margin-right: 0;
+}
+.vl-postbox-meta span {
+	margin-right: 0;
+	margin-left: 24px;
+}
+.vl-postbox-meta span i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.vl-postbox-meta2 span:not(:last-of-type) {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-postbox-meta2 span i {
+	margin-right: 0;
+	margin-left: 2px;
+}
+.vl-postbox-list {
+	margin-left: 40px;
+	margin-right: 0;
+}
+blockquote::after {
+	left: auto;
+	right: 0;
+}
+.vl-postbox-comment ul li .vl-postbox-comment-reply {
+	right: auto;
+	left: 0;
+}
+.vl-postbox-comment ul li.children {
+	margin-left: 0;
+	margin-right: 110px;
+}
+.vl-postbox-comment ul li .vl-postbox-comment-name {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-postbox-comment ul li .vl-postbox-comment-avater {
+	margin-right: 0;
+	margin-left: 30px;
+}
+.vl-postbox-reply-title::after {
+	left: auto;
+	right: 0;
+}
+.vl-postbox-comment ul li .vl-postbox-comment-reply a i {
+	margin-left: 0;
+	margin-right: 8px;
+}
+.tagcloud a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.vl-contact-breadcrumb-item {
+	padding: 34px 30px 30px 105px;
+}
+.vl-contact-breadcrumb-item-icon {
+	margin-right: 0;
+	margin-left: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.vl-postbox-meta2 span:not(:last-of-type) {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+	.vl-postbox-comment ul li.children {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.vl-postbox-meta2 span:not(:last-of-type) {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+}
+@media (max-width: 575px) {
+	.vl-postbox-comment ul li.children {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

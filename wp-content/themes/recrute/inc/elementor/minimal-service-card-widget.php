@@ -1,0 +1,294 @@
+<?php
+/**
+ * Minimal Service Card Widget for Elementor (Additional Services Layout)
+ *
+ * @package recrute
+ */
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+class Recrute_Minimal_Service_Card_Widget extends \Elementor\Widget_Base {
+    public function get_name() {
+        return 'recrute_minimal_service_card';
+    }
+    public function get_title() {
+        return esc_html__('Minimal Service Card', 'recrute');
+    }
+    public function get_icon() {
+        return 'eicon-info-box';
+    }
+    public function get_categories() {
+        return ['recrute-category'];
+    }
+    protected function register_controls() {
+        // Section Title
+        $this->start_controls_section(
+            'section_title',
+            [ 'label' => esc_html__('Section Title', 'recrute') ]
+        );
+        $this->add_control(
+            'main_title',
+            [
+                'label' => esc_html__('Main Title', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__('Additional', 'recrute'),
+            ]
+        );
+        $this->add_control(
+            'main_title_color',
+            [
+                'label' => esc_html__('Main Title Color', 'recrute'),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .vl-additional-services-title-main' => 'color: {{VALUE}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'accent_title',
+            [
+                'label' => esc_html__('Accent Title', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__('Service', 'recrute'),
+            ]
+        );
+        $this->add_control(
+            'accent_title_color',
+            [
+                'label' => esc_html__('Accent Title Color', 'recrute'),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .vl-additional-services-title-accent' => 'color: {{VALUE}};',
+                ],
+            ]
+        );
+        $this->end_controls_section();
+
+        // Left Box
+        $this->start_controls_section(
+            'left_box',
+            [ 'label' => esc_html__('Left Box', 'recrute') ]
+        );
+        $this->add_control(
+            'left_highlighted',
+            [
+                'label' => esc_html__('Highlighted Text', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXTAREA,
+                'default' => esc_html__('At ZRS, we understand that effective human resources management extends far beyond recruitment and payroll.', 'recrute'),
+            ]
+        );
+        $this->add_control(
+            'left_highlighted_color',
+            [
+                'label' => esc_html__('Highlighted Text Color', 'recrute'),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .vl-additional-services-left-highlighted' => 'color: {{VALUE}};',
+                ],
+            ]
+        );
+        $this->add_control(
+            'left_regular',
+            [
+                'label' => esc_html__('Regular Text', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXTAREA,
+                'default' => esc_html__('As a full-service HR solutions provider, we offer a range of additional services designed to support our clients in optimizing their workforce, enhancing employee experience, and ensuring long-term organizational success.', 'recrute'),
+            ]
+        );
+        $this->end_controls_section();
+
+        // Services Repeater
+        $this->start_controls_section(
+            'services_section',
+            [ 'label' => esc_html__('Services', 'recrute') ]
+        );
+        $repeater = new \Elementor\Repeater();
+        $repeater->add_control(
+            'service_number',
+            [
+                'label' => esc_html__('Number', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => '01',
+            ]
+        );
+        $repeater->add_control(
+            'number_box_color',
+            [
+                'label' => esc_html__('Number Box Color', 'recrute'),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} {{CURRENT_ITEM}} .vl-additional-services-number' => 'background: {{VALUE}};',
+                ],
+            ]
+        );
+        $repeater->add_control(
+            'service_title',
+            [
+                'label' => esc_html__('Title', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__('Service Title', 'recrute'),
+            ]
+        );
+        $repeater->add_control(
+            'service_title_color',
+            [
+                'label' => esc_html__('Title Color', 'recrute'),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} {{CURRENT_ITEM}} .vl-additional-services-service-title' => 'color: {{VALUE}};',
+                ],
+            ]
+        );
+        $repeater->add_control(
+            'service_desc',
+            [
+                'label' => esc_html__('Description', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXTAREA,
+                'default' => esc_html__('Service description here.', 'recrute'),
+            ]
+        );
+        $list_repeater = new \Elementor\Repeater();
+        $list_repeater->add_control(
+            'list_text',
+            [
+                'label' => esc_html__('Text', 'recrute'),
+                'type' => \Elementor\Controls_Manager::TEXT,
+                'default' => esc_html__('List item', 'recrute'),
+            ]
+        );
+        $list_repeater->add_control(
+            'list_color',
+            [
+                'label' => esc_html__('Text Color', 'recrute'),
+                'type' => \Elementor\Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} {{CURRENT_ITEM}} .vl-additional-services-list-item' => 'color: {{VALUE}};',
+                ],
+            ]
+        );
+        $repeater->add_control(
+            'service_list',
+            [
+                'label' => esc_html__('List Items', 'recrute'),
+                'type' => \Elementor\Controls_Manager::REPEATER,
+                'fields' => $list_repeater->get_controls(),
+                'title_field' => '{{{ list_text }}}',
+            ]
+        );
+        $this->add_control(
+            'services',
+            [
+                'label' => esc_html__('Services', 'recrute'),
+                'type' => \Elementor\Controls_Manager::REPEATER,
+                'fields' => $repeater->get_controls(),
+                'default' => [
+                    [
+                        'service_number' => '01',
+                        'service_title' => esc_html__('Employee Onboarding and Offboarding Services', 'recrute'),
+                        'service_desc' => esc_html__('A seamless onboarding experience ensures that new hires are integrated smoothly into your organization, leading to higher retention rates and quicker productivity. ZRS provides tailored onboarding programs that include:', 'recrute'),
+                        'service_list' => [
+                            ['list_text' => esc_html__('Comprehensive Background Checks', 'recrute')],
+                            ['list_text' => esc_html__('Orientation Programs', 'recrute')],
+                            ['list_text' => esc_html__('Exit Interviews and Offboarding', 'recrute')],
+                            ['list_text' => esc_html__('Compliance and Documentation', 'recrute')],
+                        ],
+                    ],
+                    [
+                        'service_number' => '02',
+                        'service_title' => esc_html__('Training and Development', 'recrute'),
+                        'service_desc' => esc_html__('We believe in the continuous growth of your employees, as a well-trained workforce drives organizational success. ZRS offers a broad range of training and development services, including:', 'recrute'),
+                        'service_list' => [
+                            ['list_text' => esc_html__('Soft Skills and Technical Training', 'recrute')],
+                            ['list_text' => esc_html__('Leadership Development', 'recrute')],
+                            ['list_text' => esc_html__('Compliance Training', 'recrute')],
+                            ['list_text' => esc_html__('E-learning Platforms', 'recrute')],
+                        ],
+                    ],
+                    [
+                        'service_number' => '03',
+                        'service_title' => esc_html__('HR Technology Solutions', 'recrute'),
+                        'service_desc' => esc_html__('In today\'s digital age, HR technology is key to streamlining operations and enhancing efficiency. ZRS helps businesses implement the latest HR tech solutions to improve accuracy, transparency, and overall performance:', 'recrute'),
+                        'service_list' => [
+                            ['list_text' => esc_html__('HRIS (Human Resource Information System) Implementation', 'recrute')],
+                            ['list_text' => esc_html__('Payroll Software Management', 'recrute')],
+                            ['list_text' => esc_html__('Time and Attendance Systems', 'recrute')],
+                            ['list_text' => esc_html__('Cloud-based Employee Records', 'recrute')],
+                        ],
+                    ],
+                ],
+                'title_field' => '{{{ service_title }}}',
+            ]
+        );
+        $this->end_controls_section();
+    }
+
+    protected function render() {
+        $settings = $this->get_settings_for_display();
+        ?>
+        <div class="vl-additional-services-section">
+            <!-- Main Title -->
+            <div class="vl-additional-services-title-section">
+                <h2 class="vl-additional-services-title">
+                    <span class="vl-additional-services-title-main" style="<?php if(!empty($settings['main_title_color'])) echo 'color:' . esc_attr($settings['main_title_color']); ?>">
+                        <?php echo esc_html($settings['main_title']); ?>
+                    </span>
+                    <span class="vl-additional-services-title-accent" style="<?php if(!empty($settings['accent_title_color'])) echo 'color:' . esc_attr($settings['accent_title_color']); ?>">
+                        <?php echo esc_html($settings['accent_title']); ?>
+                    </span>
+                </h2>
+            </div>
+
+            <!-- Content Row -->
+            <div class="vl-additional-services-content-row">
+                <!-- Left Column - Dark Blue Box -->
+                <div class="vl-additional-services-left">
+                    <div class="vl-additional-services-left-highlighted" style="<?php if(!empty($settings['left_highlighted_color'])) echo 'color:' . esc_attr($settings['left_highlighted_color']); ?>">
+                        <?php echo nl2br(esc_html($settings['left_highlighted'])); ?>
+                    </div>
+                    <div class="vl-additional-services-left-regular">
+                        <?php echo nl2br(esc_html($settings['left_regular'])); ?>
+                    </div>
+                </div>
+
+                <!-- Right Column - Services -->
+                <div class="vl-additional-services-right">
+                    <?php if(!empty($settings['services'])) : ?>
+                        <?php foreach($settings['services'] as $index => $service) : ?>
+                            <div class="vl-additional-services-service">
+                                <div class="vl-additional-services-number" style="<?php if(!empty($service['number_box_color'])) echo 'background:' . esc_attr($service['number_box_color']); ?>">
+                                    <?php echo esc_html($service['service_number']); ?>
+                                </div>
+                                <div class="vl-additional-services-service-content">
+                                    <div class="vl-additional-services-service-title" style="<?php if(!empty($service['service_title_color'])) echo 'color:' . esc_attr($service['service_title_color']); ?>">
+                                        <?php echo esc_html($service['service_title']); ?>
+                                    </div>
+                                    <div class="vl-additional-services-service-desc">
+                                        <?php echo wp_kses_post($service['service_desc']); ?>
+                                    </div>
+                                    <?php if(!empty($service['service_list'])) : ?>
+                                        <ul class="vl-additional-services-list">
+                                            <?php foreach($service['service_list'] as $list_item) : ?>
+                                                <li class="vl-additional-services-list-item" style="<?php if(!empty($list_item['list_color'])) echo 'color:' . esc_attr($list_item['list_color']); ?>">
+                                                    <?php echo wp_kses_post($list_item['list_text']); ?>
+                                                </li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
+    protected function content_template() {}
+}
+
+// Register the widget
+add_action('elementor/widgets/register', function($widgets_manager) {
+    $widgets_manager->register( new Recrute_Minimal_Service_Card_Widget() );
+}); 

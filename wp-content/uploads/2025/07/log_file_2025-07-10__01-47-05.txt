@@ -1,0 +1,200 @@
+
+---Downloaded files---
+The import files for: Demo 01 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = https://ziplinerecruitment.com
+Data file = /var/www/a6ec3d91-d9cd-4cc0-aaa5-98d0156d362e/public_html/wp-content/themes/recrute/sample-data/contents-demo.xml
+Widget file = /var/www/a6ec3d91-d9cd-4cc0-aaa5-98d0156d362e/public_html/wp-content/themes/recrute/sample-data/widget-settings.json
+Customizer file = /var/www/a6ec3d91-d9cd-4cc0-aaa5-98d0156d362e/public_html/wp-content/themes/recrute/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - Search - Widget already exists
+VL Blog Posts Image - Recent Posts - Widget already exists
+Categories - Category - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Service Sidebar : 
+
+VL Services Category - Service Categories - Widget already exists
+VL Service Posts Image - Recent Posted - Widget already exists
+VL Contact Form - Contact Us - Widget already exists
+
+Project Sidebar : 
+
+VL Project Category - Categories - Widget already exists
+VL Project Posts Image - Recent Works - Widget already exists
+Tag Cloud - Tags - Widget already exists
+VL Contact Form - Contact Us - Widget already exists
+
+Footer 1 : 
+
+VL Info - No Title - Widget already exists
+
+Footer 2 : 
+
+Navigation Menu - Quick Links - Widget already exists
+
+Footer 3 : 
+
+Navigation Menu - Get In Touch - Widget already exists
+
+Footer 4 : 
+
+VL Contact Info - Get in touch - Widget already exists
+
+footer-2-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-2-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-2-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-2-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-3-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-3-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-3-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-3-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-4-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-4-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-4-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-4-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-5-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-5-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-5-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-5-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-6-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-6-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-6-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-6-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-7-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-7-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-7-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-7-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-8-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-8-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-8-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-8-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-9-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-9-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-9-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-9-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+footer-10-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Info - No Title - Widget already exists
+
+footer-10-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Quick Links - Widget already exists
+
+footer-10-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Navigation Menu - Explore - Widget already exists
+
+footer-10-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+VL Contact Info - Get In Touch - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

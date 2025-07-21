@@ -1,0 +1,136 @@
+/* Advisory Board Widget - Matching Image Layout */
+
+/* Main container */
+.vl-advisory-board-section {
+  font-family: 'Montserrat', Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Header Section */
+.vl-advisory-board-header {
+  background: linear-gradient(to right, #ff6a21, #e55a1a);
+  padding: 30px 40px;
+  margin-bottom: 0;
+  display: inline-block;
+  border-radius: 0 0 8px 0;
+}
+
+.vl-advisory-board-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Content Area */
+.vl-advisory-board-content {
+  background: #fff;
+  color: #fff;
+  margin-top: 20px;
+  min-height: 600px;
+}
+
+/* Member Profile */
+.vl-advisory-board-member {
+  background: #1a2340;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.vl-advisory-board-member:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.vl-advisory-board-member-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+.vl-advisory-board-member-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.vl-advisory-board-member-expertise {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.vl-advisory-board-member-achievements {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.vl-advisory-board-member-publications {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .vl-advisory-board-header {
+    padding: 25px 30px;
+  }
+  
+  .vl-advisory-board-title {
+    font-size: 1.8rem;
+  }
+  
+  .vl-advisory-board-content {
+    padding: 30px 25px;
+  }
+  
+  .vl-advisory-board-member-name {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .vl-advisory-board-header {
+    padding: 20px 25px;
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .vl-advisory-board-title {
+    font-size: 1.6rem;
+  }
+  
+  .vl-advisory-board-content {
+    padding: 25px 20px;
+  }
+  
+  .vl-advisory-board-member {
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+  }
+  
+  .vl-advisory-board-member-name {
+    font-size: 1.1rem;
+  }
+  
+  .vl-advisory-board-member-description,
+  .vl-advisory-board-member-expertise,
+  .vl-advisory-board-member-achievements,
+  .vl-advisory-board-member-publications {
+    font-size: 0.95rem;
+  }
+} 

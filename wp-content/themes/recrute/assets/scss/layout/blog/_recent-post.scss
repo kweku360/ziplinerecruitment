@@ -1,0 +1,50 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  5.2 Recent Post css
+/*----------------------------------------*/
+
+.#{$theme-prefix}-rc__post{
+    &:not(:last-of-type){
+        border-bottom: 1px solid #E3E3E3;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    &-thumb{
+        & img{
+            border-radius: 5px;
+        }
+    }
+    &-title{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.8px;
+       
+        & a{
+            &:hover{
+                color: var(--vl-theme-primary);
+            }
+        }
+    }
+    &-meta{
+        & span{
+            font-family: var(--vl-ff-p);
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--vl-heading-primary);
+           
+            & i{
+                @include textGradient();
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.vl-rc__post-thumb a img {
+	width: 80px !important;
+	height: 80px !important;
+ 
+}
+.vl-rc__post-thumb {
+	flex: 0 0 auto;
+}
