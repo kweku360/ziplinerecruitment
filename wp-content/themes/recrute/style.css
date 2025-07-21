@@ -1603,4 +1603,46 @@ body {
     }
 }
 
+/* Single post full-width adjustment after sidebar removal */
+.single-post .vl-postbox-area .row > [class*='col-xxl-'],
+.single-post .vl-postbox-area .row > [class*='col-xl-'],
+.single-post .vl-postbox-area .row > [class*='col-lg-'] {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.single-post .vl-postbox-area .container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (max-width: 900px) {
+    .single-post .vl-postbox-area .row > [class*='col-'] {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-post .vl-postbox-area .container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+    .single-post .vl-postbox-area .container {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .single-post .vl-postbox-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .single-post .vl-postbox-area .row > [class*='col-'] {
+        max-width: 100%;
+    }
+}
+
 

@@ -9,8 +9,21 @@
 
 get_header();
 
-$blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
-
+if (get_post_type() === 'gallery') : ?>
+    <section class="vl-postbox-area pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <main id="main" class="site-main gallery-post-title-only">
+                        <h1 class="entry-title"><?php the_title(); ?></h1>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php
+else:
+    $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
 ?>
 
 <section class="vl-postbox-area pt-100 pb-100">
@@ -26,15 +39,15 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
 
 							get_template_part( 'template-parts/content', get_post_format() );
 
-	    					?>
+    						?>
 
 						<?php
-	    						if ( get_previous_post_link() AND get_next_post_link() ): ?>
+    							if ( get_previous_post_link() AND get_next_post_link() ): ?>
 
 						<div class="blog-details-border d-none">
 							<div class="row align-items-center">
 								<?php
-	    									if ( get_previous_post_link() ): ?>
+    									if ( get_previous_post_link() ): ?>
 								<div class="col-lg-6 col-md-6">
 									<div class="theme-navigation b-next-post text-left mb-30">
 										<span><?php print esc_html__( 'Prev Post', 'recrute' );?></span>
@@ -42,10 +55,10 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
 									</div>
 								</div>
 								<?php
-											endif;?>
+    								endif;?>
 
 								<?php
-										if ( get_next_post_link() ): ?>
+    							if ( get_next_post_link() ): ?>
 								<div class="col-lg-6 col-md-6">
 									<div class="theme-navigation b-next-post text-left text-md-right  mb-30">
 										<span><?php print esc_html__( 'Next Post', 'recrute' );?></span>
@@ -53,13 +66,13 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
 									</div>
 								</div>
 								<?php
-										endif;?>
+    							endif;?>
 
 							</div>
 						</div>
 
 						<?php
-								endif;?>
+							endif;?>
 						<?php
 
 								get_template_part( 'template-parts/biography' );
@@ -74,16 +87,11 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
 					</div>
 				</div>
 			</div>
-			<?php if ( is_active_sidebar( 'blog-sidebar' ) ): ?>
-			<div class="col-lg-4">
-				<div class="vl-sidebar-wrapper ">
-					<?php get_sidebar();?>
-				</div>
-			</div>
-			<?php endif;?>
+			<!-- Sidebar removed for all single posts -->
 		</div>
 	</div>
 </section>
 
 <?php
+endif;
 get_footer();

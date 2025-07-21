@@ -11,7 +11,11 @@
 
 
 function recrute_breadcrumb_func() {
-    global $post;  
+    global $post;
+    // Remove breadcrumb for single post pages
+    if ( is_single() && get_post_type() === 'post' ) {
+        return;
+    }
     $breadcrumb_class = '';
     $breadcrumb_show = 1;
 
