@@ -261,7 +261,7 @@ class Recrute_CTA_Banner_Widget extends \Elementor\Widget_Base {
             $background_style = 'style="background-image: url(' . esc_url($settings['background_image']['url']) . ');"';
         }
         ?>
-        <section class="cta-banner" style="width: 80%; padding:50px;margin:0 auto;" <?php echo $background_style; ?>>
+        <section class="cta-banner" style=" padding:50px;margin:0 auto;" <?php echo $background_style; ?>>
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Image Content (Left Side) -->
@@ -297,7 +297,7 @@ class Recrute_CTA_Banner_Widget extends \Elementor\Widget_Base {
                                         $button_nofollow = $button['button_link']['nofollow'] ? 'rel="nofollow"' : '';
                                         ?>
                                         <a href="<?php echo esc_url($button_link); ?>" 
-                                           class="cta-button theme-btn10 <?php echo esc_attr($button_style); ?>"
+                                           class="cta-button theme-btn1<?php echo esc_attr($button_style); ?>"
                                            <?php echo esc_attr($button_target); ?>
                                            <?php echo esc_attr($button_nofollow); ?>>
                                             <?php echo esc_html($button_text); ?>

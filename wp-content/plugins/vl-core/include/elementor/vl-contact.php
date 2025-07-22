@@ -715,7 +715,7 @@ class VL_contact extends Widget_Base {
                                    <div class="heading">
 
                                         <?php if($contact_box_rept['contact_box_title']): ?>
-                                        <p><?php echo esc_html($contact_box_rept['contact_box_title']); ?></p>
+                                        <p><?php echo wp_kses_post($contact_box_rept['contact_box_title']); ?></p>
                                         <?php endif; ?>
 
                                         <?php if($contact_box_rept['contact_box_desc']): ?>
